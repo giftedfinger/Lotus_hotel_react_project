@@ -1,0 +1,32 @@
+
+
+.container{
+display: flex;
+justify-content: space-between;
+    height: 50vh;
+    padding-top: 5rem;
+    gap: 4.5rem;
+}
+.banner img {
+    width:38vw;
+    height: 25vw;
+
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+
+
+.description{
+    margin-top: 2rem;
+    line-height: 2rem;
+
+}
+
+
+
+@import url('../About/about.css');
+@import url('../GuestBook/geustBook.css')

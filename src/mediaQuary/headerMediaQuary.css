@@ -1,0 +1,211 @@
+@media only screen and (max-width: 1200px) {
+    /*Tablets [601px -> 1200px]*/
+
+}
+
+@media only screen and (min-width: 761px) and (max-width: 1200px){
+    /*Big smartphones [426px -> 600px]*/
+
+    .nav ul li {
+            display: inline-block;
+            padding-top: 1rem;
+            cursor: pointer;
+            margin-right: 1.5rem;
+        }
+        
+        .center_div{
+            width: 90vw;
+        }
+
+        .heroText{
+            top:rem
+        }
+
+        
+}
+
+@media only screen and (min-width:200px) and (max-width: 760px) {
+    /*Small smartphones [325px -> 425px]*/
+
+body{
+    letter-spacing: .4rem;
+}
+
+header{
+    position: relative;
+}
+
+
+ .center_div {
+     width: 90vw;
+ }
+
+         .userDetails {
+    
+             display: none;
+         }
+
+         .regDetails{
+            position: absolute;
+            right: 5rem;
+            
+         }
+
+nav .logo{
+    width:calc(8rem - 1rem);
+}
+
+ .toggle_icon {
+ display: block;
+font-size:3rem - 1rem;
+}
+
+
+nav .nav_links {    
+display: block;
+    background-color: black;
+    position: absolute;
+    top: 4.5em;
+    right:-5.6%;
+    max-width: 60vw;
+    padding: 1rem;
+    text-align: center;
+    z-index: -1 ;
+
+}
+
+.nav ul li {
+display: block;
+margin:0 2rem auto;
+width: 40vw;
+text-align: center;
+}
+
+.nav ul li:last-child{
+    margin-bottom: 2rem;
+}
+
+.nav ul li:first-child{
+    margin-top: 12rem;
+}
+.nav ul li:hover{
+background-color: hsl(var(--buttonColor));
+
+}
+
+.nav ul li a:hover{
+    color:#000000;
+    font-weight: 900;
+}
+
+
+.nav_register_login{
+    display: block;
+    margin: 0 auto;
+    border: 1px solid red;
+    text-align: center
+}
+
+.nav_register_login a{
+margin: 5%;
+}
+
+/* ___________________________End of nav______________ */
+
+.header {
+    height: 100vh;
+    background-image: url('./../img/img-4.jpg');
+    background-repeat: no-repeat;  
+
+}
+
+
+.bottom_hero {
+   display: flex;
+   overflow-x:auto;
+   transition: 1s overflow-x ease;
+  
+}
+
+.heroText{
+    position: absolute;
+    width: 100vw;
+    z-index: 1;
+  
+}
+
+/* header text */
+.heroText h1 {
+  
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -8rem);
+    /* text-shadow: 1px 1px 8px ; */
+    font-size: 1rem;
+    line-height: 5rem;
+  
+}
+
+.heroText h1 span {
+    display: block;
+    font-size: 3rem;
+    font-weight: 1000;
+    
+}
+
+.bottom_hero .center_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+
+}
+
+/* header bottom */
+
+.ArrivalDate div:last-child{
+width: 12rem;
+padding-left: 10px;
+}
+
+
+.ArrivalDate div:last-child{
+font-size: 1rem; 
+padding-left: 1REM;
+min-width: 10em;
+
+}
+.ArrivalDate div{
+    min-width: 10em;
+    padding: 0;
+    width: 45vw;
+  
+    
+}
+
+/* Arrival section */
+.ArrivalDate div {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ffff;
+    padding: 0rem 0rem;
+    margin-right: 1rem;
+    transition: .5s background;
+
+}
+
+.ArrivalDate div p{
+margin:0 auto;
+text-align: center;
+}
+
+ .Room_Rate_div {
+  margin-right: 16rem;
+ }
+
+ .Room_Rate_div p {
+     font-size: 2rem;
+        min-width: 30vw;
+    }
+
+}

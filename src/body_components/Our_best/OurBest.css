@@ -1,0 +1,31 @@
+.container_Ourbest{
+height: 70vh;
+}
+
+
+.BestList,
+.List_container{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+  
+}
+
+.List_container{
+    padding-top: 6rem;
+ 
+}
+.bests{
+            height: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  
+}
+.bests img{
+    width: 4vw;
+}
+.bests p{
+   
+    width: 18rem;
+ 
+}

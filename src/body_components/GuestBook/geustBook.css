@@ -1,0 +1,16 @@
+.guest_details h4 {
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+
+.guest_Img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+}
+.details_div {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}

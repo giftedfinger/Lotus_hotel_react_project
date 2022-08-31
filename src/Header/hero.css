@@ -1,0 +1,195 @@
+
+
+/* general styling */
+
+.toggle_icon {
+    display: none;
+    font-size: 3rem;
+}
+
+.nav,
+.bottom_hero {
+    background-color: hsl(var(--black), .65);
+    height: 7rem;
+    color: #ffff;
+
+}
+
+/* display  flex */
+.bottom_hero .center_div,
+.ArrivalDate,
+.nav .center_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.nav ul li,
+.ArrivalDate div {
+    height: 4rem;
+}
+
+/* cursor pointer */
+
+.Rgister_Login,
+.ArrivalDate div,
+.nav ul li {
+    cursor: pointer;
+}
+
+/* _________________________________________________END OF GENERAL STYLING____________________________________________________________________________________ */
+
+
+.header {
+    height: 95vh;
+    background-image:  url('./../img/img-4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+/* register login section */
+
+.Register, .Register_gap{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.Register{
+text-align: center;
+align-items: center;
+height: 4rem;
+}
+
+.Register_gap{
+    gap:3rem;
+}
+
+.Register_gap p, .Register_gap a{
+    color: #ffff;
+
+}
+
+
+/* nav  */
+
+ .bottom_hero .bottom_hero_container{
+    display: flex;
+justify-content: space-between;
+top: 50%;
+bottom: 50%;
+transform: translate(0%,20%);
+width: 100vw;
+
+}
+
+
+.logo{
+  width: 9.8vw;
+}
+
+
+.nav ul li{
+    display: inline-block;
+padding-top: 1rem;
+cursor: pointer;
+margin-right: 3.5rem;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    z-index: 5;
+}
+
+
+
+.nav ul li:last-child,.ArrivalDate div:last-child{
+    margin-right: 0;
+}
+.nav_register_login {
+    display: none;
+}
+
+
+/* hero text */
+
+.heroText{
+    min-width: 40vw;
+    color: #ffff;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,10.8rem);
+    /* text-shadow: 1px 1px 8px ; */
+    
+}
+
+.heroText span{
+    display: block;
+    font-size: 7rem;
+    font-weight: 300;
+}
+
+
+/* buttom hero div */
+
+.bottom_hero{
+    position:absolute;
+    width: 100%;
+bottom:0rem ;
+ 
+}
+
+
+
+.ArrivalDate div{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ffff;
+    padding: 0rem 3rem;
+    margin-right: 2rem;
+    transition: .5s background ;
+
+}
+
+.ArrivalDate div:hover{
+    background-color: hsl(var(--buttonColor));
+    border:1px solid transparent;
+}
+
+.ArrivalDate  p{
+font-size: 1.25rem;
+
+}
+
+.ArrivalDate div:last-child{
+    font-size: 1.5rem;
+    background-color: hsl(var(--buttonColor),.75);
+    border: 1px solid transparent;
+    text-transform: uppercase;
+}
+
+.ArrivalDate div:last-child:hover{
+    background-color: hsl(0, 12%, 94%);
+    color:hsl(var(--buttonColor)) ;
+}
+
+ .Room_Rate_div {
+    width:calc(15rem - 1rem);
+    display: flex;
+    gap: 2rem;
+
+    
+}
+
+ .Room_Rate_div p{
+    font-size: 2rem;
+}
