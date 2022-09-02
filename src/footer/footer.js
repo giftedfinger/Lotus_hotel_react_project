@@ -1,8 +1,10 @@
 import React from 'react'
 import './footer.css'
-import footerLogo from '../img/logo-footer.png'
-import { FaFacebookF, FaTwitter, FaGooglePlusG } from 'react-icons/fa';
-import { TiSocialGooglePlus, TiSocialInstagram, TiSocialPinterestCircular } from "react-icons/ti";
+import Footer_top from './footer_top/footer_top';
+import Footer_body from './footer_Body/footer_body';
+import { FaRegCopyright } from 'react-icons/fa';
+
+
 
 
 
@@ -10,39 +12,13 @@ import { TiSocialGooglePlus, TiSocialInstagram, TiSocialPinterestCircular } from
 const Footer = () => {
   return (
     <div className='footer_container'>
+<Footer_top />
+<Footer_body/>
+
+      <div className='bottom_footer'><p>
+        <FaRegCopyright  className='copyRight_icon'/>  <span> 2016 </span> Lotus Hote All right reservsed</p> 
       
-      <section className='footer_top'>
-        <div className='center_div'></div>
-        <div> <h3>NEWS & OFFERS</h3></div>
-        <form>
-
-            <input type=" email" placeholder='Your email Address' />
-          <button>SIGN UP</button>
-        </form>
-
-       
-        <div className='icons_container'>
-          <div className='icon_div' > <TiSocialPinterestCircular className='icon' /></div>
-          <div className='icon_div' > <FaFacebookF className='icon' /></div>
-          <div className='icon_div' > <FaTwitter className='icon' /></div>
-          <div className='icon_div' > <TiSocialGooglePlus className='icon' /></div>
-          <div className='icon_div' >  <TiSocialInstagram className='icon' /></div>
-        
-        </div>
-      </section>
-
-<section className='footer_body'>
-<div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-
-</section>
-<section className='bottom_footer'>
-
-</section>
-
+      </div>
       </div>
 
   )

@@ -1,0 +1,67 @@
+
+.footer_body .center_div,.lotus_content,.Lotue_address{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+.Lotue_address div,.lotus_content div{
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+
+}
+
+.footer_body{
+    height: 35vh;
+    background-color: hsl(var(--black),.9);
+  padding-top: 7%;
+  
+}
+
+
+.Lotue_address {
+   gap: 4rem; 
+}
+
+.adress_icon{
+    margin-right: 1rem;
+   
+}
+
+.Lotue_address .address_content{
+ margin-top: 2rem;
+}
+
+.Lotue_address img{
+    height: 10rem;
+    opacity: .8;
+}
+
+.lotus_content{
+ gap: 10rem;
+}
+
+/* TripAdvisor */
+
+#tripAdvisor {
+    display: flex;
+    align-items: center;
+
+}
+
+#tripAdvisor .tripAdvisor_icon {
+    font-size: 3rem;
+    display: block;
+    margin-right: .4rem;
+}
+
+.dot_icon {
+    border: 2px solid rgb(92, 179, 0,.7);
+    height: 1.2rem;
+    width: 1.2rem;
+    border-radius: 50%;
+    margin-right:.5rem ;
+    color:rgb(92, 179, 0,0.7) ;
+}

@@ -1,0 +1,128 @@
+.icon_div,
+.footer_top h3 {
+    color: rgb(208, 202, 202);
+    border: 3px solid rgb(215, 211, 211);
+}
+
+.icons_container,
+.icon_div,
+.footer_top,
+form {
+    display: flex;
+}
+
+.footer_top,
+form {
+    align-items: center;
+
+}
+
+/* ----------------------------------------- */
+
+section {
+    margin: 0;
+
+}
+
+.footer_container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 20vh;
+    margin-top: 4rem;
+
+
+}
+
+
+.footer_top {
+
+    justify-content: space-evenly;
+    background-color: hsl(var(--black), .85);
+    height: 10vh;
+}
+
+
+
+.icons_container {
+    gap: 2rem;
+}
+
+.icon_div {
+
+    align-items: center;
+    border-radius: 50%;
+    text-align: center;
+    height: 4vh;
+    width: 4vh;
+
+}
+
+
+.icon {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.pinterest {
+    font-size: 1.87rem;
+}
+
+.message{
+display: flex;
+gap: 1rem;
+align-items: center;
+}
+
+
+.message h3{
+    font-size: 2rem;
+    border: transparent;
+      
+        font-weight: 300;
+}
+
+
+#message_icon{
+    display: block;
+    color: hsl(var(--buttonColor));
+    border: 2px solid ;
+    border-radius:50% ;
+    width: 4rem;
+    height:4rem;
+    padding-top: .8rem;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+
+
+
+form input {
+    background-color: transparent;
+    border: 2px solid rgb(185, 180, 180);
+    height: 3.5rem;
+    width: 20vw;
+    padding-left: 1rem;
+}
+
+form input:hover {
+    border: 2px solid rgb(185, 180, 180);
+    outline: rgb(185, 180, 180);
+
+}
+
+form button {
+    border: 1px solid hsl(var(--buttonColor));
+    background-color: hsl(var(--buttonColor));
+    color: rgb(233, 227, 227);
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    padding: 0;
+    height: 3.5rem;
+    margin-top: 0;
+}
+
+
