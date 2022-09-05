@@ -193,3 +193,19 @@ font-size: 1.25rem;
  .Room_Rate_div p{
     font-size: 2rem;
 }
+/* animation */
+
+.heroAnimAtion{
+    animation: myAnim 2s ease ;
+}
+
+@keyframes myAnim {
+
+    0%{
+        opacity: 0;
+    }
+
+   100%{
+        opacity: 0;
+    }
+}

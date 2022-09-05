@@ -9,6 +9,8 @@
 
 }
 
+
+
 .Accomodation_header{
     display: flex;
     justify-content: space-between;
@@ -47,12 +49,12 @@ overflow: hidden;
 
 }
 
-.accomodate_container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-content: space-evenly;
-   
-}
+    .accomodate_container{
+        display: flex;
+        grid-template-columns: repeat(3,1fr);
+        justify-content: space-evenly;
+    
+    }
 
 .accomodate_container .accommodation,
 .details div {
@@ -127,7 +129,7 @@ figure {
 }
 
 .accommodation img {
-    width: 33rem;
+    width: 34rem;
     transition: all .6s;
     overflow: hidden;
 }

@@ -34,12 +34,7 @@ body{
 }
 /* center_div to center the page */
 
-.center_div{
-  width:80vw;
-  margin: 0 auto;
-  
-}
-
+/* 
 
 
 /* .App {
@@ -80,3 +75,4 @@ body{
     transform: rotate(360deg);
   }
 } */
+

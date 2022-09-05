@@ -17,7 +17,7 @@ const Accomodation = () => {
 {/* container items container */}
      <div className='accomodate_container '>
    
-  { 
+{ 
 // map 
 data.map((item)=>{
   const{id,img,name,text,currency,price,day,details,string,icon}=item

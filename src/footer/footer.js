@@ -16,7 +16,7 @@ const Footer = () => {
 <Footer_body/>
 
       <div className='bottom_footer'><p>
-        <FaRegCopyright  className='copyRight_icon'/>  <span> 2016 </span> Lotus Hote All right reservsed</p> 
+        <FaRegCopyright  className='copyRight_icon'/>  <span> 2016 </span>  Lotus Hote All right reservsed</p> 
       
       </div>
       </div>

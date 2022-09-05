@@ -21,11 +21,17 @@ import OurBest from './body_components/Our_best/OurBest'
         <section>
         <Accomodation />
         </section>
-       <section> <GuestBook />
-       </section>
-       <section> <About />
-       </section >
-       <section><OurBest />
+
+        <section> 
+          <GuestBook />
+       </section> 
+
+        <section> 
+          <About />
+       </section >  
+
+       <section>
+        <OurBest />
        </section >
     
 

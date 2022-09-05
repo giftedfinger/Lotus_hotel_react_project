@@ -22,7 +22,7 @@ const OurBest = () => {
       </div>
 
       </div>
-      <div className=''>
+      <div className='best_banner'>
       <img src={img} alt='image'></img>
       </div>
     </section>

@@ -5,7 +5,17 @@
 
 @media only screen and (min-width: 761px) and (max-width: 1200px){
     /*Big smartphones [426px -> 600px]*/
+.center_div{
+    width: 90vw;
+    /* border: 1px solid; */
+}
 
+h2{
+    text-align: center;
+}
+p{
+    line-height: 2rem;
+}
     .nav ul li {
             display: inline-block;
             padding-top: 1rem;
@@ -13,32 +23,77 @@
             margin-right: 1.5rem;
         }
         
-        .center_div{
-            width: 90vw;
+        /* banner */
+
+        .banner{
+          padding-top: 5rem;
         }
+
+                .banner img{
+                    width: 44vw;
+                }
+ /* accompliment */
+                .accomodate_container {
+                    overflow-x: auto;
+                    padding-top: 2rem;
+padding-left: 48rem;
+padding-right: 4rem;
+scroll-behavior: smooth;
+        
+                }
 
         .heroText{
             top:rem
         }
 
+        /* Our best section */
+                .container_Ourbest  {
+                   flex-direction: column;
+                  /* padding-left: 5rem; */
+                  margin-top: 5rem;
+
+                }
+
+.best_banner img{
+    width: 90vw;
+}
+
+/* footer---------------- */
+                .footer_body{
+                    display: flex;
+                    gap: 2rem;
+                  
+                }
+                .Lotue_address{
+                    margin-right: 4rem;
+                
+                }
         
 }
 
 @media only screen and (min-width:200px) and (max-width: 760px) {
     /*Small smartphones [325px -> 425px]*/
 
-body{
+/* body{
     letter-spacing: .4rem;
+} */
+           .center_div {
+               width:90vw ;           
+           }
+
+
+h2{
+    font-size: 2.5rem;
+    text-align: center;
 }
+
 
 header{
     position: relative;
 }
 
 
- .center_div {
-     width: 90vw;
- }
+
 
          .userDetails {
     
@@ -65,19 +120,19 @@ nav .nav_links {
 display: block;
     background-color: black;
     position: absolute;
-    top: 4.5em;
-    right:-5.6%;
-    max-width: 60vw;
+    top: 9em;
+    right:0.6%;
+    max-width: 50vw;
     padding: 1rem;
     text-align: center;
-    z-index: -1 ;
+    z-index: 6;
 
 }
 
 .nav ul li {
 display: block;
 margin:0 2rem auto;
-width: 40vw;
+width: 30vw;
 text-align: center;
 }
 
@@ -101,8 +156,7 @@ background-color: hsl(var(--buttonColor));
 
 .nav_register_login{
     display: block;
-    margin: 0 auto;
-    border: 1px solid red;
+    margin:0 auto;  
     text-align: center
 }
 
@@ -161,6 +215,8 @@ margin: 5%;
 
 }
 
+
+
 /* header bottom */
 
 .ArrivalDate div:last-child{
@@ -210,7 +266,120 @@ text-align: center;
 
     /* Accomodation  section */
 
-    
-    
+.accomodate_container{
+overflow-x: auto;
+padding-top: 2rem;
+
+
+}
+
+
+.accommodation{
+
+  gap: 1rem;
+}
+
+/* accommodation */
+.accomodate_container {
+    padding-left: 24rem;
+    /* padding-right: 20rem; */
+}
+
+.accommodation {
+    width: 25rem;
+}
+
+.container {
+    display: block;
+    flex-direction:column;
+
+
+}
+
+.banner_container{
+    display: none;
+}
+
+
+
+
+/* about */
+
+.about {
+
+    margin-top: 6rem;
+   
+}
+
+.banner .about_img {
+    width: 90vw;
+    height: auto;
+margin-bottom: 2rem;
+}
+
+/* Our best */
+  
+
+
+.container_Ourbest .best_banner img{
+    width: 90vw;
+}
+
+
+.container_Ourbest{
+    margin-top: 4rem;
+    line-height: 2.5rem;
+  padding-top: 3rem;
+ 
+}
+
+.container_Ourbest .BestList {
+  display: block;
+  min-height: 85vh;
+  
+}
+
+
+.BestList .bests img{
+width: 4rem;
+margin: 0 auto;
+margin-top: 0;
+
+}
+
+
+/* footer */
+
+.footer_body .center_div,
+.lotus_content,
+.Lotue_address {
+    display: flex;
+   flex-direction: column;
+   gap: 5rem;
+
+}
+
+.footer_top{
+    flex-direction: column;
+    height: 40vh;
+}
+
+.Lotue_address img{
+    max-width: 40vw;
+    margin: 0 auto;
+}
+
+.footer_body{
+   min-height: 100vh;
+   text-align: center;
+  
+}
+
+#tripAdvisor{
+    margin: 0 auto;
+}
+.center_div{
+    width: 90% !important;
+}
 
 }

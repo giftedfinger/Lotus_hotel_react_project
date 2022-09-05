@@ -6,7 +6,7 @@ const heroText = () => {
     <div>
         <div className='heroText'>
           {/* <img src='../../img'></img> */}
-          <h1>EACH HOTEL IS  <span>UNIQUE 60%</span> JUST LIKE YOU</h1>
+        <h1 className='heroAnimAtion'>EACH HOTEL IS  <span>UNIQUE 60%</span> JUST LIKE YOU</h1>
           
           </div>
          

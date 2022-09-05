@@ -15,7 +15,7 @@ return(
 
         <div>
         <div className='banner'>
-             <img src={img1}  alt=' image' />
+             <img src={img1}  className="about_img" alt=' image' />
         </div>
         </div>
 

@@ -10,7 +10,7 @@ const guestBook = () => {
 const {img1,img2,header_text,description,id,text,icon}=item
 
 return(
-<div className='container'>
+<div className='container guestBook'>
 <div className='info'>
             <h2>{header_text}</h2>
 <div className='details_div'>
@@ -29,7 +29,7 @@ return(
   
 
 </div>
-        <div>
+        <div className='banner_container'>
             <h2>{header_text}</h2>
         <div className='banner'>
              <img src={img1}  alt='guest image' />

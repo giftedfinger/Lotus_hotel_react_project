@@ -24,21 +24,15 @@ section {
 
 }
 
-.footer_container {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    height: 20vh;
-    margin-top: 4rem;
 
-
-}
 
 
 .footer_top {
 
     justify-content: space-evenly;
     background-color: hsl(var(--black), .85);
-    height: 10vh;
+    min-height: 10vh;
+ 
 }
 
 
@@ -104,7 +98,7 @@ form input {
     background-color: transparent;
     border: 2px solid rgb(185, 180, 180);
     height: 3.5rem;
-    width: 20vw;
+    /* width: 20vw; */
     padding-left: 1rem;
 }
 
@@ -123,6 +117,7 @@ form button {
     padding: 0;
     height: 3.5rem;
     margin-top: 0;
+    display: none;
 }
 
 

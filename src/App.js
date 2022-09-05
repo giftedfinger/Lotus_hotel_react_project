@@ -10,6 +10,10 @@ import Body from './body_Section';
 // footer
 import Footer from './footer/footer';
 
+//media  query 
+
+import './mediaQuary/headerMediaQuary.css';
+
 
 function App() {
 
@@ -23,6 +27,8 @@ function App() {
 
  </div>
       <Footer />
+
+    
 
     </div>
   );

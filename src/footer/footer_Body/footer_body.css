@@ -2,6 +2,7 @@
 .footer_body .center_div,.lotus_content,.Lotue_address{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 4rem;
    
 }
 
@@ -14,7 +15,7 @@
 }
 
 .footer_body{
-    height: 35vh;
+   /* max-height: 100vh; */
     background-color: hsl(var(--black),.9);
   padding-top: 7%;
   
