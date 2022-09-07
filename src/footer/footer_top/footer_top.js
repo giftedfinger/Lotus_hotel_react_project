@@ -17,7 +17,7 @@ const footer_top = () => {
 
               <form>
                   <input type=" email" placeholder='Your email Address' />
-                  <button>SIGN UP</button>
+                  <button className='btn'>SIGN UP</button>
               </form>
 
 

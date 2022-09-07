@@ -56,7 +56,9 @@ scroll-behavior: smooth;
 
 .best_banner img{
     width: 90vw;
+    height: 70vh;
 }
+
 
 /* footer---------------- */
                 .footer_body{
@@ -77,6 +79,10 @@ scroll-behavior: smooth;
 /* body{
     letter-spacing: .4rem;
 } */
+
+html{
+    font-size: .705rem;
+}
            .center_div {
                width:90vw ;           
            }
@@ -118,7 +124,7 @@ font-size:3rem - 1rem;
 
 nav .nav_links {    
 display: block;
-    background-color: black;
+    background-image: linear-gradient(rgba(255, 255, 255,.4),rgba(255, 255, 255, .6));
     position: absolute;
     top: 9em;
     right:0.6%;
@@ -129,11 +135,29 @@ display: block;
 
 }
 
+/* glassMophism */
+
+nav .nav_links{
+    
+    background:linear-gradient( rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.3));
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(5px);
+        border-radius: 10px;
+        border-left: 1px solid rgba(255, 255, 255, 0.5);
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        /* border-bottom: 1px solid rgba(255, 255, 255, 0.5); */
+}
+
+/* nav links */
+
 .nav ul li {
 display: block;
 margin:0 2rem auto;
 width: 30vw;
 text-align: center;
+    color: #ffff;
+    font-weight: 1000;
 }
 
 .nav ul li:last-child{
@@ -149,19 +173,21 @@ background-color: hsl(var(--buttonColor));
 }
 
 .nav ul li a:hover{
-    color:#000000;
-    font-weight: 900;
+    color:#fff;
+ 
 }
 
 
 .nav_register_login{
     display: block;
     margin:0 auto;  
-    text-align: center
+    text-align: center;
+    margin: 2rem 0;
 }
 
 .nav_register_login a{
 margin: 5%;
+font-weight: 900;
 }
 
 /* ___________________________End of nav______________ */
@@ -323,6 +349,7 @@ margin-bottom: 2rem;
 
 .container_Ourbest .best_banner img{
     width: 90vw;
+    margin-top: 3rem;
 }
 
 
@@ -355,7 +382,7 @@ margin-top: 0;
 .Lotue_address {
     display: flex;
    flex-direction: column;
-   gap: 5rem;
+   gap: 4rem;
 
 }
 
@@ -364,6 +391,9 @@ margin-top: 0;
     height: 40vh;
 }
 
+.Lotue_address{
+    gap: 1rem;
+}
 .Lotue_address img{
     max-width: 40vw;
     margin: 0 auto;
@@ -372,7 +402,7 @@ margin-top: 0;
 .footer_body{
    min-height: 100vh;
    text-align: center;
-  
+
 }
 
 #tripAdvisor{

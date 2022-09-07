@@ -11,8 +11,7 @@ import Body from './body_Section';
 import Footer from './footer/footer';
 
 //media  query 
-
-import './mediaQuary/headerMediaQuary.css';
+import './mediaQuary/headerMediaQuary.css'
 
 
 function App() {
